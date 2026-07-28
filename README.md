@@ -1,5 +1,5 @@
 # geo-python
-#  STAC Datasets & LiDAR Analysis
+# 🌍 STAC Datasets & LiDAR Analysis
 
 > **Daily geospatial experiments** – exploring INPE's STAC catalog and advanced terrain/vegetation analysis from LiDAR point clouds.
 
@@ -24,14 +24,14 @@ This repository documents my daily geospatial Python experiments. Each script ex
 
 ##  Datasets Explored
 
-| Day | Dataset | Topic | 
+| Day | Dataset | Topic | Script |
 |-----|---------|-------|--------|
-| 01 | **Sentinel-2** (S2-16D-2) | EVI & NDVI vegetation indices | 
-| 02 | **Topodata** (SRTM) | Embrapa slope classes |
-| 03 | **Sentinel-3** (Ocean) | Water diagnostics & NDWI | 
-| 04 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) |
-| 05 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud |
-| 06 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | 
+| 01 | **Sentinel-2** (S2-16D-2) | EVI & NDVI vegetation indices | [Stac_Evi.ipynb](Stac_Evi.ipynb) |
+| 02 | **Topodata** (SRTM) | Embrapa slope classes | [Stac_Topodata_EVI.ipynb](Stac_Topodata_EVI.ipynb) |
+| 03 | **Sentinel-3** (Ocean) | Water diagnostics & NDWI | [Stac_Topodata_EVI.ipynb](Stac_Topodata_EVI.ipynb) |
+| 04 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) | [mdt_teste.ipynb](mdt_teste.ipynb) |
+| 05 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud | [slope_lidar.ipynb](slope_lidar.ipynb) |
+| 06 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | [lidar_vegetation.ipynb](lidar_vegetation.ipynb) |
 
 ---
 
@@ -86,22 +86,23 @@ This repository documents my daily geospatial Python experiments. Each script ex
 | `geopandas` | Vector data (future) |
 | `Pillow` | 16-bit PNG exports |
 | `plyfile` | PLY format export |
+| `pandas` | Tabular data manipulation |
 
 ---
 
-## Sample Outputs
+##  Sample Outputs
 
 ### Sentinel-2 EVI & NDVI
-![EVI NDVI](tests/day01_stac_evi_ndvi/evi_ndvi_lado_a_lado.png)
+![EVI NDVI](evi_ndvi_lado_a_lado.png)
 
 ### Topodata - Embrapa Slope Classes
-![Topodata](tests/day02_topodata/sc_declividade.png)
+![Topodata](sc_declividade.png)
 
 ### MDT Terrain Analysis
-![MDT](tests/day04_mdt_portugal/DTM_Hillshade.png)
+![MDT](DTM_Hillshade.png)
 
 ### LiDAR Canopy Height Model
-![CHM](tests/day06_lidar_vegetation/2d_canopyheight.png)
+![CHM](2d_canopyheight.png)
 
 ---
 
