@@ -28,10 +28,9 @@ This repository documents my daily geospatial Python experiments. Each script ex
 |-----|---------|-------|--------|
 | 01 | **Sentinel-2** (S2-16D-2) | EVI & NDVI vegetation indices | [Stac_Evi.ipynb](Stac_Evi.ipynb) |
 | 02 | **Topodata** (SRTM) | Embrapa slope classes | [Stac_Topodata_EVI.ipynb](Stac_Topodata_EVI.ipynb) |
-| 03 | **Sentinel-3** (Ocean) | Water diagnostics & NDWI | [Stac_Topodata_EVI.ipynb](Stac_Topodata_EVI.ipynb) |
-| 04 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) | [mdt_teste.ipynb](mdt_teste.ipynb) |
-| 05 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud | [slope_lidar.ipynb](slope_lidar.ipynb) |
-| 06 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | [lidar_vegetation.ipynb](lidar_vegetation.ipynb) |
+| 03 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) | [mdt_teste.ipynb](mdt_teste.ipynb) |
+| 04 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud | [slope_lidar.ipynb](slope_lidar.ipynb) |
+| 05 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | [lidar_vegetation.ipynb](lidar_vegetation.ipynb) |
 
 ---
 
