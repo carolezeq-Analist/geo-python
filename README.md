@@ -24,14 +24,14 @@ This repository documents my daily geospatial Python experiments. Each script ex
 
 ##  Datasets Explored
 
-| Day | Dataset | Topic | Script |
+| Day | Dataset | Topic | 
 |-----|---------|-------|--------|
-| 01 | **Sentinel-2** (S2-16D-2) | EVI & NDVI vegetation indices | [teste.py](tests/day01_stac_evi_ndvi/) |
-| 02 | **Topodata** (SRTM) | Embrapa slope classes | [teste2.py](tests/day02_topodata/) |
-| 03 | **Sentinel-3** (Ocean) | Water diagnostics & NDWI | [teste3.py](tests/day03_sentinel3_water/) |
-| 04 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) | [mdt_teste.py](tests/day04_mdt_portugal/) |
-| 05 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud | [dados_lidar.py](tests/day05_lidar_terrain/) |
-| 06 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | [lidar_5.py](tests/day06_lidar_vegetation/) |
+| 01 | **Sentinel-2** (S2-16D-2) | EVI & NDVI vegetation indices | 
+| 02 | **Topodata** (SRTM) | Embrapa slope classes |
+| 03 | **Sentinel-3** (Ocean) | Water diagnostics & NDWI | 
+| 04 | **MDT 50cm** (Portugal) | Terrain analysis (hillshade, slope, curvature) |
+| 05 | **LiDAR** (São João, PT) | DEM, slope, hillshade, curvature from point cloud |
+| 06 | **LiDAR** (São João, PT) | Canopy Height Model (CHM) & vegetation analysis | 
 
 ---
 
