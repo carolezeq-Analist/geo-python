@@ -37,42 +37,42 @@ This repository documents my daily geospatial Python experiments. Each script ex
 ##  Features
 
 ### STAC Integration
-- ✅ Connection to INPE Brazil STAC catalog
-- ✅ Spatial filtering (bbox)
-- ✅ Temporal filtering (datetime)
-- ✅ Cloud cover filtering
-- ✅ Multi-collection exploration
+-  Connection to INPE Brazil STAC catalog
+-  Spatial filtering (bbox)
+-  Temporal filtering (datetime)
+-  Cloud cover filtering
+-  Multi-collection exploration
 
 ### LiDAR Processing
-- ✅ LAZ/LAS reading with `laspy`
-- ✅ Classification filtering (Ground, Vegetation)
-- ✅ DEM generation via interpolation (`griddata`)
-- ✅ KDTree-based ground interpolation (CHM)
-- ✅ Outlier filtering
+-  LAZ/LAS reading with `laspy`
+-  Classification filtering (Ground, Vegetation)
+-  DEM generation via interpolation (`griddata`)
+-  KDTree-based ground interpolation (CHM)
+-  Outlier filtering
 
 ### Terrain Analysis
-- ✅ Hillshade (custom azimuth/altitude)
-- ✅ Slope (degrees)
-- ✅ Aspect
-- ✅ Curvature (Laplacian)
-- ✅ Statistical summaries
+-  Hillshade (custom azimuth/altitude)
+-  Slope (degrees)
+-  Aspect
+-  Curvature (Laplacian)
+-  Statistical summaries
 
 ### Visualization
-- ✅ 2D plots with colormaps
-- ✅ 3D scatter plots
-- ✅ Histograms
-- ✅ Side-by-side comparisons
+-  2D plots with colormaps
+-  3D scatter plots
+-  Histograms
+-  Side-by-side comparisons
 
 ### Exports
-- ✅ GeoTIFF with CRS/metadata
-- ✅ 16-bit PNG (Blender-ready)
-- ✅ PLY point cloud (3D software)
-- ✅ CSV tabular data
-- ✅ High-resolution plots
+-  GeoTIFF with CRS/metadata
+-  16-bit PNG (Blender-ready)
+-  PLY point cloud (3D software)
+-  CSV tabular data
+-  High-resolution plots
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Library | Purpose |
 |---------|---------|
